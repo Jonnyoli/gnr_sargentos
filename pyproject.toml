@@ -3,7 +3,6 @@ name = "gnr_sargentos"
 version = "0.1.0"
 description = "Sistema de avaliações de guardas"
 authors = ["Jonny Oli <jonnyoli@email.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
@@ -13,8 +12,6 @@ requests = "^2.31.0"
 firebase-admin = "^6.2.0"
 discord.py = "^2.3.2"
 python-dotenv = "^1.0.0"
-
-[tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core"]
