@@ -10,8 +10,9 @@ fastapi = "^0.111.0"
 uvicorn = "^0.25.0"
 requests = "^2.31.0"
 firebase-admin = "^6.2.0"
-python-dotenv = "^1.0.0"
 discord.py = "^2.3.2"
+python-dotenv = "^1.0.0"
+
 
 [tool.poetry.scripts]
 start = "uvicorn app:app --host 0.0.0.0 --port 10000"
