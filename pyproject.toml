@@ -1,18 +1,1 @@
-[tool.poetry]
-name = "gnr_sargentos"
-version = "0.1.0"
-description = "Sistema de avaliações de guardas"
-authors = ["Jonny Oli <jonnyoli@email.com>"]
 
-[tool.poetry.dependencies]
-python = "^3.13"
-fastapi = "^0.111.0"
-uvicorn = "^0.25.0"
-requests = "^2.31.0"
-firebase-admin = "^6.2.0"
-discord.py = "^2.3.2"
-python-dotenv = "^1.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
