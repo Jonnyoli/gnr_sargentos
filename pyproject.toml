@@ -2,7 +2,7 @@
 name = "gnr_sargentos"
 version = "0.1.0"
 description = "Sistema de avaliações de guardas"
-authors = [Smurf Oliveira]
+authors = ["Jonny Oli <jonnyoli@email.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -15,7 +15,6 @@ discord.py = "^2.3.2"
 python-dotenv = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
-# podes adicionar aqui, se quiseres, tipo black, mypy, etc.
 
 [build-system]
 requires = ["poetry-core"]
